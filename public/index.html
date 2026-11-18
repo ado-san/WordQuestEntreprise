@@ -1,0 +1,34 @@
+// ...existing code...
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="WordQuest Entreprise: guess the tech &amp; business word of the day in 6 tries. A customizable word game by AD Ventures."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Prevent initial flash: set a stable background and hide #root until app reveals it -->
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        background-color: #000000; /* adjust to your app background color */
+      }
+      /* keep root hidden until React renders to avoid flicker */
+      #root { visibility: hidden; }
+    </style>
+
+    <title>WordQuest Entreprise — tech &amp; business word game</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+// ...existing code...
